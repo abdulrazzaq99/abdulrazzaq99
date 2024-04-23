@@ -27,12 +27,12 @@ window.onscroll = () => {
     });
 
 
-    let header = document.querySelector('header');
-    header.classList.toggle('sticky', window.screenY > 100);
+let header = document.querySelector('header');
+header.classList.toggle('sticky', window.screenY > 100);
 
 
-    menuIcon.classList.remove('fa-xmark');
-    navbar.classList.remove('active');
+menuIcon.classList.remove('fa-xmark');
+navbar.classList.remove('active');
 };
 
 
@@ -52,6 +52,6 @@ const typed = new Typed('.multiple-text', {
     strings: ['Frontend Developer', 'Backend Developer', 'Full Stack Developer'],
     typeSpeed: 70,
     backSpeed: 70,
-    backDelay:1000,
-    loop:true,
+    backDelay: 1000,
+    loop: true,
 });
